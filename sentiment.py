@@ -8,5 +8,13 @@ def home_load():
     return render_template("home.html")
 
 
+# USAGE
+# for i in range(1):
+#     reviewInput = input("Insert comment here: ")
+    
+#     result = naiveBayes(reviewInput, unigVal)
+#     printOutput(result)
+
+
 if __name__ == "__main__":
     app.run()
