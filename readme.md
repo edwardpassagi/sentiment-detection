@@ -16,4 +16,4 @@ Make sure you have the relevant python libraries before running this app:
 You can then call `python3 sentiment.py` from the local project root directory. Default port hosting should be at **5000**, and can be acessed locally at `localhost:5000`.
 
 ## Herokuapp
-URL: **todo** 
+URL: **todo**
