@@ -1,1 +1,16 @@
-<h1>hello world</h1>
+<h1>Sentiment Detector</h1>
+
+<!-- Logic flow for loading the result -->
+{% if result is not none %}
+    {% if result == 1 %}
+    <h1> POSITIVE comment</h1>
+    {% elif result == 0 %}
+    <h1> NEGATIVE comment</h1>
+    {% endif %}
+
+{% endif %}
+
+<form method="post" action="/result">
+    <input type="text" name="userCommentInput" placeholder="insert comment here" required>
+    <input type="submit" value="rename">
+</form>
