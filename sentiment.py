@@ -12,7 +12,9 @@ def home_load():
 def load_result():
     comment_request = request.form['userCommentInput']
     # DEAL WITH RESULT
-    result = int(comment_request)
+    # result = int(comment_request)
+
+    result = sentiment_detection.naiveBayes(comment_request, )
     return render_template("home.html", result=result)
 
 
